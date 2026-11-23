@@ -1,0 +1,35 @@
+[
+  {
+    "external_id": "MOCK-001",
+    "title": "Suspicious login from new location",
+    "description": "A user signed in from an unrecognized country.",
+    "source": "MockSIEM",
+    "severity": "high",
+    "raw_event": {
+      "user": "alice",
+      "country": "unknown"
+    }
+  },
+  {
+    "external_id": "MOCK-002",
+    "title": "Multiple failed authentication attempts",
+    "description": "Repeated login failures against a single account.",
+    "source": "MockSIEM",
+    "severity": "medium",
+    "raw_event": {
+      "user": "bob",
+      "attempts": 12
+    }
+  },
+  {
+    "external_id": "MOCK-003",
+    "title": "Malware hash detected on endpoint",
+    "description": "Endpoint protection matched a known malware hash.",
+    "source": "MockSIEM",
+    "severity": "critical",
+    "raw_event": {
+      "host": "workstation-14",
+      "hash": "abc123"
+    }
+  }
+]
