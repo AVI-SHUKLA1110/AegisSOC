@@ -15,7 +15,7 @@
     "title": "Multiple failed authentication attempts",
     "description": "Repeated login failures against a single account.",
     "source": "MockSIEM",
-    "severity": "medium",
+    "severity": "super-dangerous",
     "raw_event": {
       "user": "bob",
       "attempts": 12
